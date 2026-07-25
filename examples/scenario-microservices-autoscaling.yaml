@@ -1,0 +1,15 @@
+title: "Two-service burst with target-tracking autoscaling"
+region: us-east-1
+purchaseOption: ON_DEMAND
+durationSeconds: 3600
+intervalSeconds: 60
+arrivalRatesRps: "20,20,40,80,140,140,140,80,40,20"
+services: "api|c7i.xlarge|1|8|1|480|0.60;worker|c7i.2xlarge|1|10|1|1000|0.65"
+startupDelaySeconds: 60
+scaleOutCooldownSeconds: 120
+scaleInCooldownSeconds: 300
+maxQueueRequests: 100000
+sloSeconds: 2.0
+priceCatalogMode: ILLUSTRATIVE
+officialPriceCacheFile: target/aws-microservice-price-cache.properties
+officialPriceCacheTtlHours: 24

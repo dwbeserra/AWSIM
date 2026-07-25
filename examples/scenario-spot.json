@@ -1,0 +1,21 @@
+{
+  "title": "AWS Scenario from JSON",
+  "region": "eu-west-3",
+  "purchaseOption": "SPOT",
+  "instanceType": "c7i.2xlarge",
+  "vmCount": 4,
+  "cloudletCount": 20,
+  "cloudletLength": 1080000000,
+  "ebsSizeGb": 100,
+  "s3StoredDataGb": 50,
+  "s3BasePutRequests": 1000,
+  "s3BaseGetRequests": 1000,
+  "fixedOutboundInternetGb": 8,
+  "bindingPolicy": "roundrobin",
+  "variablePricing": true,
+  "spotAvailability": true,
+  "priceSeed": 123,
+  "interruptionRatePerHour": 0.10,
+  "restartOverheadHours": 0.30,
+  "checkpointIntervalHours": 1.0
+}

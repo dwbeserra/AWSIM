@@ -1,0 +1,20 @@
+# Example schema only. Replace every value with a normalized official AWS Price
+# List export before selecting this file with --price-catalog.
+metadata.catalogId=replace-with-versioned-catalog-id
+metadata.source=https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/index.json
+metadata.retrievedAt=YYYY-MM-DD
+metadata.currency=USD
+
+ec2.us-east-1.ON_DEMAND.c7i.2xlarge=0.000000
+ec2.us-east-1.SPOT.c7i.2xlarge=0.000000
+ebs.gp3.us-east-1.storagePerGbMonth=0.000000
+ebs.gp3.us-east-1.extraIopsMonth=0.000000
+ebs.gp3.us-east-1.extraThroughputMonth=0.000000
+fsx.lustre.us-east-1.storagePerGbMonth=0.000000
+fsx.lustre.us-east-1.throughputPerMbpsMonth=0.000000
+fsx.lustre.us-east-1.metadataPerIopsMonth=0.000000
+fsx.lustre.us-east-1.backupPerGbMonth=0.000000
+s3.standard.us-east-1.storagePerGbMonth=0.000000
+s3.standard.us-east-1.putPerThousand=0.000000
+s3.standard.us-east-1.getPerThousand=0.000000
+transfer.us-east-1.internetPerGb=0.000000

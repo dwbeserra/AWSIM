@@ -1,0 +1,11 @@
+title: "Official-price one-hour smoke test"
+region: us-east-1
+purchaseOption: ON_DEMAND
+instanceType: c7i.2xlarge
+vmCount: 1
+cloudletCount: 4
+cloudletLength: 18000000
+cloudletOutputSizeMb: 0
+priceCatalogMode: OFFICIAL_AUTO
+officialPriceCacheFile: target/aws-official-smoke-cache.properties
+officialPriceCacheTtlHours: 24

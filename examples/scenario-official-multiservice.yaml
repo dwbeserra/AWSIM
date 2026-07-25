@@ -1,0 +1,22 @@
+title: "Official-price multi-service smoke test"
+region: us-east-1
+purchaseOption: ON_DEMAND
+instanceType: c7i.2xlarge
+vmCount: 1
+cloudletCount: 4
+cloudletLength: 18000000
+cloudletOutputSizeMb: 64
+ebsSizeGb: 100
+ebsIops: 4000
+ebsThroughputMbps: 200
+fsxStorageGb: 1200
+fsxThroughputMbps: 4000
+fsxMetadataIops: 1500
+fsxBackupGb: 100
+s3StoredDataGb: 100
+s3BasePutRequests: 1000
+s3BaseGetRequests: 1000
+fixedOutboundInternetGb: 10
+priceCatalogMode: OFFICIAL_AUTO
+officialPriceCacheFile: target/aws-official-multiservice-cache.properties
+officialPriceCacheTtlHours: 24

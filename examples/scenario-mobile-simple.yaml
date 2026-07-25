@@ -1,0 +1,24 @@
+title: AWS Mobile+Cloud Simple Scenario from YAML
+region: eu-west-3
+purchaseOption: ON_DEMAND
+instanceType: c7i.xlarge
+vmCount: 2
+hostCount: 2
+hostPes: 24
+hostPeMips: 5000
+hostRamMb: 65536
+hostStorageMb: 5000000
+hostBwMb: 25000
+cloudletCount: 12
+cloudletLength: 648000000
+cloudletPes: 1
+cloudletFileSizeMb: 64
+cloudletOutputSizeMb: 24
+ebsSizeGb: 50
+s3StoredDataGb: 8.0
+s3BasePutRequests: 200
+s3BaseGetRequests: 200
+fixedOutboundInternetGb: 1.0
+bindingPolicy: roundrobin
+variablePricing: false
+spotAvailability: false

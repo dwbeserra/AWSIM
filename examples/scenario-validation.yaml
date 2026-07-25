@@ -1,0 +1,26 @@
+title: AWSIM independent accounting validation
+region: us-east-1
+purchaseOption: ON_DEMAND
+instanceType: c7i.2xlarge
+vmCount: 6
+hostCount: 4
+hostPes: 16
+hostPeMips: 5000
+hostRamMb: 262144
+hostStorageMb: 10000000
+hostBwMb: 100000
+cloudletCount: 60
+cloudletLength: 720000000
+cloudletPes: 1
+cloudletFileSizeMb: 512
+cloudletOutputSizeMb: 256
+ebsSizeGb: 200
+ebsIops: 3000
+ebsThroughputMbps: 125
+s3StoredDataGb: 500
+s3BasePutRequests: 10000
+s3BaseGetRequests: 10000
+fixedOutboundInternetGb: 30
+bindingPolicy: roundrobin
+variablePricing: false
+spotAvailability: false
